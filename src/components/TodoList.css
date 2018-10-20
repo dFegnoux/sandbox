@@ -1,0 +1,29 @@
+.todolist-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid darkgrey;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.todolist-list {
+    height: 20vh;
+    overflow-y: scroll;
+}
+
+.input-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: stretch;
+}
+
+.input-wrapper input {
+    flex: 1;
+}
+
+.btn-remove {
+    cursor: pointer;
+    margin-right: 1vw;
+}
